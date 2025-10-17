@@ -69,7 +69,7 @@ public class Helpers {
                 "            <p><span class=\"highlight\">Customer Name:</span> {{CLIENT_NAME}}</p>\n" +
                 "            <p><span class=\"highlight\">Customer Phone Number:</span> {{CLIENT_PHONE_NUMBER}}</p>\n" +
                 "            <p><span class=\"highlight\">Message:</span></p>\n" +
-                "            <p>{{CLIENT_MESSAGE}}</p>\n" +
+                "            <p class=\"highlight\">{{CLIENT_MESSAGE}}</p>\n" +
                 "\n" +
                 "            <p>Please follow up with the customer as soon as possible.</p>\n" +
                 "        </div>\n" +
