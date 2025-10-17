@@ -60,7 +60,7 @@ public class MailServer {
                 .replace("{{CLIENT_NAME}}", customerName)
                         .replace("{{COMPANY_NAME}}", companyName)
                                 .replace("{{AGENT_NAME}}", agentName)
-                                        .replace("{{ORIGINAL_SUBJECT}}", subject);
+                                        .replace("{{ORIGINAL_SUBJECT}}", "Inquiry");
 
         sendEmail(customerEmail, companyEmail, subject, body, null, null, true);
     }
