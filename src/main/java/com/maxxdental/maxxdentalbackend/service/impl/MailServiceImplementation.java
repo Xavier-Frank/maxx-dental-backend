@@ -113,7 +113,7 @@ public class MailServiceImplementation implements MailService {
                             .responseCode(HttpStatus.BAD_REQUEST.value())
                             .responseRefId(helpers.getCurrentTimeStamp())
                             .customerMessage("Mail request body is missing")
-                            .debugMessage("Mail request body is missing. Check payload and try again")
+                            .debugMessage("Mail request body is missing. Check payload and try again.")
                             .build())
                     .responseBody(false)
                     .build();
