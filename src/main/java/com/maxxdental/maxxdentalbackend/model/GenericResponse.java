@@ -1,6 +1,7 @@
 package com.maxxdental.maxxdentalbackend.model;
 
 
+import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -12,7 +13,9 @@ import lombok.NoArgsConstructor;
 @Builder
 public class GenericResponse<T> {
 
+    @JsonProperty("ResponseHeader")
     private ResponseHeader responseHeader;
+    @JsonProperty("ResponseBody")
     private T responseBody;
 
     @Data
