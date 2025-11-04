@@ -15,6 +15,6 @@ EXPOSE 8080
 # Run as non-root user
 USER appuser
 
-# Entrypoint — pass JVM options via environment variable if needed
+# Entrypoint — pass JVM options via environment variable
 ENV JAVA_OPTS="-Xms256m -Xmx512m"
 ENTRYPOINT [ "sh", "-c", "java $JAVA_OPTS -jar /app/maxx-dental-backend.jar" ]
